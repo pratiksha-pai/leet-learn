@@ -1,0 +1,8 @@
+- when to use l<h vs l<=h
+  -   l < h for when solution exists in the array
+  -   this will eventually converge to one index
+  -   example - search for min in sorted array
+-   when to use l <=h
+  - when the solution might not exist in the array
+  - you need the extra iteration for validating non existence
+  - 
